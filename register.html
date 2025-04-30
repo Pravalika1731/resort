@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
     <header>
@@ -12,29 +12,24 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="register.html">Register</a></li>
-                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="Container">
-            <div class="login-container">
-        <form action="register.html" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+        <form action="/register_form" method="post">
+            <label for="name">Name:</label>
+            <input type="name" id="name" name="name" required>
+            <label for="contact">Contact:</label>
+            <input type="contact" id="number" name="number" required>
             <button type="submit">Register</button>
         </form>
-        </div>
-        </section>
     </main>
     <footer>
-        <p>&copy; 2024 Resort Website. All rights reserved.</p>
+        <b><p>Address:128,Thorlebag,Querim,Arambol,Goa | Mail:palmparadise09@gmail.com | contact us:+91 8379899195 | &copy; 2024 Luxury Resort. All rights reserved.</p></b>
     </footer>
+</body>
 </body>
 </html>
